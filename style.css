@@ -1,17 +1,22 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
+  background-image:url(back.jpg);
+  background-repeat:no-repeat;
+
   margin: 0;
   padding: 0;
   color: #333;
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #060606;
   color: white;
   padding: 30px 20px;
   text-align: center;
+}
+header:hover{
+  color:#7fe7c1;
 }
 
 .blog-posts {
@@ -21,20 +26,43 @@ header {
 }
 
 .post {
-  background: white;
+ background-image:url(back.jpg);
+ background-repeat:no-repeat;
   padding: 20px;
   margin-bottom: 20px;
   border-left: 6px solid #4CAF50;
   transition: background 0.3s ease;
 }
 
-.post:hover {
-  background: #f0f8f5;
-}
 
+.web:hover{
+    background-image:url(rose1.jpg);
+  background-size: contain;
+  backdrop-filter:initial;
+  background-repeat: no-repeat;
+  background-position-x:right;
+    transition: background 0.3s ease;
+
+}
+.java:hover{
+    background-image:url(java.jpg);
+      background-size: contain;
+  backdrop-filter:initial;
+  background-repeat: no-repeat;
+  background-position-x:right;
+  transition: background 0.3s ease;
+}
+.python:hover{
+    background-image:url(python.jpg);
+      background-size: contain;
+  backdrop-filter:initial;
+  background-repeat: no-repeat;
+  background-position-x:right;
+  transition: background 0.3s ease;
+}
 .meta {
   font-size: 0.9em;
-  color: #777;
+  color:white;
 }
 
 .summary {
