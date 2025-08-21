@@ -26,19 +26,13 @@ header:hover{
 }
 
 .post {
- background-image:url(back.jpg);
- background-repeat:no-repeat;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-left: 6px solid #4CAF50;
-  transition: background 0.3s ease;
+background-color: rgba(206, 210, 214, 0);
 }
 
 
 .web:hover{
-    background-image:url(rose1.jpg);
+  background-image:url(webD.jpg);
   background-size: contain;
-  backdrop-filter:initial;
   background-repeat: no-repeat;
   background-position-x:right;
     transition: background 0.3s ease;
@@ -47,7 +41,6 @@ header:hover{
 .java:hover{
     background-image:url(java.jpg);
       background-size: contain;
-  backdrop-filter:initial;
   background-repeat: no-repeat;
   background-position-x:right;
   transition: background 0.3s ease;
@@ -55,7 +48,6 @@ header:hover{
 .python:hover{
     background-image:url(python.jpg);
       background-size: contain;
-  backdrop-filter:initial;
   background-repeat: no-repeat;
   background-position-x:right;
   transition: background 0.3s ease;
